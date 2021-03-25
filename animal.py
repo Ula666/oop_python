@@ -19,11 +19,15 @@ class Animal():
 
 # creating an object of our Animal class
 cat = Animal() # this will store all the data available
+oriental_longhair = Animal()
+
+
+print(oriental_longhair.breath())
+oriental_longhair.lungs = False # Polymorphism - overwrite a vale/changed, in this case the lungs for this animal
+print(oriental_longhair.lungs)
+
 # in Animal class into cat
 # print(cat.eat()) # eas() is now abstracted
 
 # inheritance
-
-
-
    # pass # is a keyword used to bypass the code
